@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.home {
+  height: 100vh;
+  background-color: #16181c;
+}
+
+
+
+
+.slogan {
+  min-height: 400px;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  color: white;
+  pointer-events: none;
+  z-index: 99;
+}
+
+.slogan .page-title {
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-family: "radikalregular", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 82px;
+  text-align: center;
+  padding: 23px 0 0 0;
+}
+
+.slogan p {
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  padding: 23px 0 0 0;
+}
+
+#particle-canvas{
+  position: relative;
+  top: -50%;
+  /* z-index: 129; */
+  opacity: .9;
+}
+
+
+
+
+@media (max-width: 800px) {
+  
+  .page-title {
+    font-size: 36px; 
+  }
+
+  .slogan p {
+    font-size: 25px; 
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 30px; 
+  }
+
+  .slogan p {
+    font-size: 20px; 
+  }
+}
+
+@media (max-width: 400px) {
+  .page-title {
+    font-size: 20px; 
+  }
+
+  .slogan p {
+    font-size: 15px; 
+  }
+}

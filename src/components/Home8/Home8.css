@@ -1,0 +1,122 @@
+.home8 {
+  height: 150vh;
+  background-color: #16181c;
+  padding: 135px 0 0 0;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.platform_title__2 h2 {
+  font-family: "radikalregular", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  line-height: 1.14;
+  color: #ffffff;
+  font-weight: normal;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.platform_text {
+  max-width: 770px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 130px 0;
+  opacity: 0.8;
+}
+
+.platform_text p {
+  font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.feature_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 220px;
+  grid-gap: 120px;
+}
+
+.feature_list .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 33.3%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.feature_list .list_item {
+  color: #fff;
+  padding: 0 15px;
+  font-family: "radikalregular", Helvetica, Arial, sans-serif;
+}
+
+.feature_list .list_item .img {
+  margin: 0 0 24px;
+  height: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+.title__2 {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.capsule__button {
+  margin-top: 120px;
+  border: 2px solid #95380d;
+  color: #95380d;
+}
+
+@media screen and (max-width: 829px) {
+  .home8 {
+    height: 240vh;
+  }
+
+  .feature_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 120px;
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .home8{
+    height: 280vh;
+  }
+
+  .feature_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: -50px;
+    margin-left: 210px;
+    grid-gap: 30px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 402px) {
+    .feature_list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: -50px;
+        margin-left: 150px;
+        grid-gap: 30px;
+        align-items: center;
+      }
+}

@@ -1,0 +1,137 @@
+.home7{
+    height: 90vh;
+    background-color: #16181c;
+    padding: 135px 0 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.platform_title h2{
+    font-family: "radikalregular", Helvetica, Arial, sans-serif;
+    font-size: 66px;
+    line-height: 1.14;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.platform_text{
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 130px 0;
+    opacity: .8;
+}
+
+.platform_text p{
+    font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.platforms_list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.platforms_list .group{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 33.3%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.platforms_list .list_item{
+    color: #fff;
+    padding: 0 15px;
+    font-family: "radikalregular", Helvetica, Arial, sans-serif;
+}
+
+.platforms_list .list_item .img{
+    margin: 0 0 24px;
+    height: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+        vertical-align: middle;
+}
+
+.title{
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.capsule__button {
+    -webkit-transition: color 0.3s ease-out, border-color 0.3s ease-out,
+    background 0.3s ease-out, background-color 0.3s ease-out;
+  transition: color 0.3s ease-out, border-color 0.3s ease-out,
+    background 0.3s ease-out, background-color 0.3s ease-out;
+  background: transparent;
+  border-color: transparent;
+  text-align: center;
+  border-radius: 50px;
+  min-width: 250px;
+  max-width: 100%;
+  font-size: 20px;
+  padding: 10px 20px 14px 30px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+    margin-top: 120px;
+    border: 2px solid #95380d;
+    color: #95380d;
+  }
+  
+@media screen and (max-width: 829px) {
+
+    .home7{
+        height: 240vh;
+    }
+    
+
+    .platforms_list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 120px;
+        grid-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 402px) {
+
+    
+    .home7{
+        height: 300vh;
+    }
+    
+
+    .platforms_list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 150px;
+        grid-gap: 30px;
+    }
+}
